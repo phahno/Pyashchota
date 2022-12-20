@@ -151,7 +151,7 @@ body{
     flex-wrap: wrap;
 }
 .menu__item:not(:last-child) {
-    margin: 0px 31px 0px 0px;
+    margin: 0px 24px 0px 0px;
 }
 .menu__link {
     font-family: 'Mulish', sans-serif;
