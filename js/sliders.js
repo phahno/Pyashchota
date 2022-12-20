@@ -9,5 +9,5 @@ new Swiper('.efforts-slider', {
         clickable: true,
     },
     simulateTouch: true,
-
+    slidesPerView:1,
 });
