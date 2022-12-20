@@ -530,7 +530,7 @@ background-color: #AC6E67;
 }
 /* -------------views--------------- */
 .views-bg{
-    background: url(/img/chocolate-cake.jpg) no-repeat;
+    background: url("../img/chocolate-cake.jpg") no-repeat;
     background-size: cover;
 
 }
