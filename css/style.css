@@ -790,6 +790,12 @@ background-color: #AC6E67;
     background-color: #AC6E67;
 }
 
+
+@media all and (min-width: 1440px){
+    .pic-group__square{
+        width: 382px;
+    }
+}
 @media all and (max-width: 1267px){
     .products__items{
         grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
