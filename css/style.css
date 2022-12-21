@@ -57,7 +57,6 @@ body{
 }
 ._title{
     font-family: 'Mulish';
-    font-style: normal;
     font-weight: 400;
     font-size: 48px;
     line-height: 60px;
@@ -94,8 +93,6 @@ body{
     line-height: 30px;
     color: inherit;
     color: #50322F;
-    /* text-align: left; */
-
 }   
 /* ------------menu---------------------- */
 .header--position {
@@ -110,7 +107,7 @@ body{
 }
 @media(any-hover){
     .header._scroll .header__wrapper {
-        background-color: #3e2b222a;
+        background-color: #3e2b2282;
     }
 }
 .header._scroll .header__container {
@@ -943,7 +940,6 @@ background-color: #AC6E67;
         height: 100%;
         background-color: #50322fdc;
         padding: 100px 30px 30px 30px;
-        transition: right 0.3s ease 0s;
         transform: translate(-200%, 0px);
         overflow: auto;
         flex-direction: column;
@@ -1098,7 +1094,7 @@ background-color: #AC6E67;
         grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
     }
 }
-@media all and (max-width: 319px){
+@media all and (max-width: 320px){
     .main-block__title {
         font-size: 56px;
         line-height: 80px;
@@ -1113,6 +1109,6 @@ background-color: #AC6E67;
         gap: 8px;
     }
     .about-us__container {
-        padding-bottom: 3   0px;
+        padding-bottom: 3px 0px;
     }
 }
